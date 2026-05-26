@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap">
+        <script src="slide-1.js"></script>
         <style>
             @font-face {
             font-family: 'Over';
@@ -36,16 +37,22 @@
     </head>
 
     <body>
-
-        <button onmouseenter="myFunction()" onmouseleave="myFunction2()">hover Me</button>
+        
+         <div id= "" class= "testid testdiv boxover" style="display:none;">
+                <h2 class="w3-center">Regular Portfolio</h2>
+        </div> 
 
         
-        <div id="testdiv box"  style="display:none;">
-            <p>WORK
-            WORKWORK
-            WORKWORKWORK
-            WORKWORK
-            </p>            
+
+        <div class="wrapper">
+            
+            <div id= "" class= "regdiv box">
+                <h2 class="w3-center">Regular Portfolio</h2>
+            </div>
+        
+            <div id= "" class="fundiv box" onmouseenter="myFunction()" onmouseleave="myFunction2()">
+                <h2 class="w3-center">Fun Portfolio</h2>
+            </div>
         </div>
         
     </body>
